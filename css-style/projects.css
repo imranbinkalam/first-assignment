@@ -31,6 +31,7 @@
 .primary-btn{
     padding: 15px 25px;
     font-size: 20px;
+    font-weight: 600;
     background-color: #FD6E0A;
     color: aliceblue;
     border: none;
@@ -70,5 +71,50 @@
     list-style: none;
 }
 .contain-list li i{
-    color: rgb(95, 196, 95);
+    color: rgb(80, 202, 80);
+}
+/* Second contain style */
+.second-contain{}
+.second-container{}
+.sub-title{
+    text-align: center;
+    font-size: 40px;
+}
+.logo-items{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;       
+}
+.item1{
+    width: 20%;
+    text-align: center;
+}
+.item1 h2{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.item1 p{
+    color: #757575;
+    font-size: 22px;
+    font-weight: 500;
+}
+/* Watch banner style */
+
+   
+.watch-banner{
+    background-image: url('../images/watch.png');
+    width: 80%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 50px;
+}
+.watch-banner h1{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: #FD6E0A;
+    background-color: #fff;
 }
