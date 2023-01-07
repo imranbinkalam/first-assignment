@@ -100,18 +100,20 @@
 }
 /* Watch banner style */
 .watch-banner{
-    background-image: url('../images/gradient2.png'),url('../images/watch.png');
-    height: 50vh;
-    width: 76%;
+    background-image: linear-gradient(to right,hsla(4, 87%, 49%, 0.93),hsla(18, 100%, 47%, 0.82),hsla(23, 100%, 50%, 0.30), hsla(0, 0%, 100%, 0)), url('../images/watch.png');
+    width: 75%;
     background-repeat: no-repeat;
-    margin: 100px auto 70px;
+    margin: 100px auto 150px;
     padding: 50px;
+    border-radius: 10px;
+  
 }
 .watch-banner h1{
-    color: aliceblue;
+    color: #ffffff;
     font-size: 40px;
     margin-bottom: 20px;
     width: 50%;
+    opacity: 1;
 }
 .btn{
     color: #FD6E0A;
