@@ -99,22 +99,66 @@
     font-weight: 500;
 }
 /* Watch banner style */
-
-   
 .watch-banner{
-    background-image: url('../images/watch.png');
-    width: 80%;
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
     height: 50vh;
+    width: 76%;
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin: 100px auto 70px;
     padding: 50px;
 }
 .watch-banner h1{
     color: aliceblue;
     font-size: 40px;
     margin-bottom: 20px;
+    width: 50%;
 }
 .btn{
     color: #FD6E0A;
     background-color: #fff;
+}
+/* footer style */
+.footer-content{
+    background-color: black;
+    display: flex;
+    padding: 140px;
+    gap: 200px;
+}
+.footer-left{
+    margin-left: 50px;
+}
+.footer-left h1{
+    color: #fff;
+    font-size: 45px;
+}
+.footer-left p{
+    color: #757575;
+    font-size: 18px;
+    width: 500px;
+    margin: 15px 0;
+}
+.logo-png{
+    margin-top: 30px;
+}
+.logo-png img{
+    margin-right: 15px;
+}
+.footer-right{
+    margin-left: 100px;
+}
+.footer-right h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+} 
+.footer-right input{
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    color: #fff;
+    font-size: 18px;
+    background-color: black;
+    margin-bottom: 20px;
 }
